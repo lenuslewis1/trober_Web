@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trober: Move with ease!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+
+
+      <!-- navBar using bootsrap -->
+    <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container-fluid " id="nav-items">
+          <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="logo" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Schools</a></li>
+                  <li><a class="dropdown-item" href="#">Churches</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Events</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Partners</a>
+              </li>
+            </ul>
+       
+          </div>
+        </div>
+      </nav>
+      <!-- End of NavBar section -->
+
+
+      <!-- Header section -->
+      <div class="container-fluid">
+          <div class="row" id="header">
+                <div class="col-lg-4 col-md-12 col-sm-12" id="header-text"> 
+                  <div class="wrapper">
+                    <div class="centeredBox"> 
+                      <h1 id="typewriter" data-array=""></h1>
+                      <span class="cursor"></span>
+                    </div>
+                  </div>
+                <!-- <h1 >Move around the city with ease</h1> -->
+                <h6 id="comfy">Comfort, Convenient and Reliable rides for everyday commute</h6>
+                </div>
+
+                <div class="col-lg-4 col-sm-12" id="header-form"> 
+                    <div class="container mt-5">
+                        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Daily Ride</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Rent Bus</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Business</button>
+                          </li>
+                        </ul>
+                      
+                        <div class="tab-content" id="myTabContent">
+                          <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                            
+                            <!-- form content for tab one -->
+                            <br><br>
+                            <h6>Book a Trober for your daily commute. We will pick you up at your bus stop</h6>
+                            <br>
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                  <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="phone-number" class="form-label">Phone Number</label>
+                                  <input type="text" class="form-control" id="phone-number">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone-number" class="form-label">Where will you be going?</label>
+                                    <input type="text" class="form-control" id="phone-number">
+                                  </div>
+                                
+                                  <div class="mb-3">
+                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                        <option selected>Type of bus</option>
+                                        <option value="1">29 Seater Coaster</option>
+                                        <option value="2">14 Seater Haice</option>
+                                        <option value="3">Saloon Car</option>
+                                      </select>
+                                  </div>
+
+                                  <div class="mb-3">
+                                    <label for="phone-number" class="form-label">Pickup Location</label>
+                                    <input type="text" class="form-control" id="phone-number">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="phone-number" class="form-label">Dropoff Location</label>
+                                    <input type="text" class="form-control" id="phone-number">
+                                  </div>
+            
+                              
+                                <button type="submit" class="btn btn-primary form-btn1">Submit</button>
+                            </form> 
+                          </div>
+                          <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                            
+                            <!-- form content for tab tw0 -->
+                            <br><br>
+                            <h6>Get access to our large network of vehicle partners to create a beautiful experience</h6>
+                            <br>
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                  <input type="email" class="form-control" id="Name" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="phone-number" class="form-label">Phone Number</label>
+                                  <input type="text" class="form-control" id="phone-number">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone-number" class="form-label">Where will you be going?</label>
+                                    <input type="text" class="form-control" id="phone-number">
+                                  </div>
+                                
+                                  <div class="mb-3">
+                                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                        <option selected>Type of bus</option>
+                                        <option value="1">29 Seater Coaster</option>
+                                        <option value="2">14 Seater Haice</option>
+                                        <option value="3">Saloon Car</option>
+                                      </select>
+                                  </div>
+                                  
+
+                                  <div class="mb-3">
+                                    <label for="phone-number" class="form-label">How long will you need?</label>
+                                    <input type="text" class="form-control" id="phone-number">
+                                  </div>
+
+                                  <button type="submit" class="btn btn-primary form-btn">Submit</button>
+                          </div>
+                          <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+
+                             <!-- form content for tab three -->
+                             <br><br>
+                             <h6>Get access to our large network of vehicle partners to create a beautiful experience</h6>
+                             <br>
+                             <form>
+                                 <div class="mb-3">
+                                   <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                   <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+                                 </div>
+                                 <div class="mb-3">
+                                   <label for="phone-number" class="form-label">Company Name</label>
+                                   <input type="text" class="form-control" id="phone-number">
+                                 </div>
+                                 <div class="mb-3">
+                                     <label for="phone-number" class="form-label">Company Email</label>
+                                     <input type="text" class="form-control" id="phone-number">
+                                   </div>
+                                 
+                                   
+ 
+                                   
+             
+                               
+                                 <button type="submit" class="btn btn-primary form-btn1">Submit</button>
+                             </form> 
+                          </div>
+                        </div>
+                      </div>
+                
+                </div>
+            </div>
+      </div>
+
+       <!-- End of Header section -->
+   
+      <!-- Info section -->
+
+      <div class="container-fluid">
+        <div class="row info">
+            <div class="col-lg-6 col-md-12">
+                <h3>We use our technology to connect riders to independent bus service provides.</h3>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <img src="img/trans.svg" alt="bus">
+            </div>
+            
+        </div>
+        <div class="col-4 book-text">
+            <h3>Book a ride for your business,event, church,school or daily commute. Life is stressful enough, let Trober make commuting hassle-free for you.</h3>
+        </div>
+      </div>
+         <!-- end of Info section -->
+
+
+        <!-- Our Offerings Section -->
+        <div class="offerings">
+
+        
+        <h2 id="offer">Our Offerings</h2>
+
+         <div class="container-fluid">
+            <div class="row cards">
+                <div class="col">
+                    <div class="card cardzz" style="width: 25rem;">
+                       
+                        <div class="card-body">
+                          <h5 class="card-title">Business</h5>
+                          <p class="card-text">Make commuting less of a concern for your employees.</p>
+                          <img src="img/Trober_business_icon_shpwgj.png" class="card-img-bottom" alt="...">
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card cardzz" style="width: 25rem;">
+                       
+                        <div class="card-body">
+                          <h5 class="card-title">Schools</h5>
+                          <p class="card-text">Get a safe bus service to transport your students with ease.</p>
+                          <img src="img/Trober_school_icon_c9wbeq.png" class="card-img-bottom" alt="...">
+                        </div>
+                      </div>
+                </div>
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col">
+                    <div class="card cardzz" style="width: 25rem;">
+                       
+                        <div class="card-body">
+                          <h5 class="card-title">Events</h5>
+                          <p class="card-text">Have zero stress arranging transportation for special occasions.</p>
+                          <img src="img/Trober_Icons_event_new_vcfycv.svg" class="card-img-bottom" alt="...">
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card cardzz" style="width: 25rem;">
+                       
+                        <div class="card-body">
+                          <h5 class="card-title">Churches</h5>
+                          <p class="card-text">Provide your church members with a timely and reliable transportation.</p>
+                          <img src="img/Trober_church_icon_a4cuuh.png" class="card-img-bottom" alt="...">
+                        </div>
+                      </div>
+                </div>
+                </div>
+            </div>
+         </div>
+         </div>
+         <!-- End of Our Offerings Section -->
+
+        
+         <!-- Features section -->
+        <div class="container-fluid booking">
+            <div class="row ">
+                <div class="col-lg-4 col-md-12 ">
+                    <img src="img/Trober_booking_icon_laptop_mhvxxj.svg" alt="" id="book-img1">
+                </div>
+                <div class="col-lg-4 col-md-12 book-test1">
+                  <h3>Convenient Booking</h3>  
+                  <h6>The booking process is simplified to save you time</h6>
+                  <ul>
+                    <li>Choose your route</li>
+                    <li>Set your pickup bus stop</li>
+                    <li>Set your destination bus stop</li>
+                    <li>Review and confirm</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid booking1">
+            <div class="row">
+              
+                <div class="col-lg-4 col-md-12 book-test2">
+                  <h3>Digital Payment</h3>  
+                  <h6>The booking process is simplified to save you time</h6>
+                  <p>No need to carry physical cash. Connect your digital wallet and pay as you ride.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <img src="img/Trober_pay_icon_laptop_ebfjjo.svg" alt="" id="book-img2">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid booking">
+          <div class="row">
+              <div class="col-lg-6 col-md-12">
+                  <img src="img/Trober_trackingicon_laptop_vpx8wx.svg" alt="" id="book-img3">
+              </div>
+              <div class="col-lg-4 col-md-12 book-test3">
+                <h3>Tracking</h3>  
+                <h6>Track your ride in real time. No need to wait for long hours at bus stops. Get an estimate of your pickup and drop-off time.</h6>
+                
+              </div>
+          </div>
+      </div>
+
+      <div class="container-fluid booking1">
+        <div class="row">
+          
+            <div class="col-lg-4 col-md-12 book-test2">
+              <h3>Subscription</h3>  
+              <h6>Subscribe and save a seat. You can save a seat for a whole week or month ahead on our clean, safe, comfortable and high quality buses.</h6>
+             
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <img src="img/Trober_Icons_subscrry_vo3mng.svg" alt="" id="book-img2">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid booking">
+      <div class="row">
+          <div class="col-lg-6 col-md-12">
+              <img src="img/Trober_route_icon_laptop_ib74i4.svg" alt="" id="book-img3">
+          </div>
+          <div class="col-lg-4 col-md-12 book-test3">
+            <h3>Smart Routing</h3>  
+            <h6>Reduced stops, less traffic. To increase ridership and minimise travel time, we use data to determine and optimise routes for our fleet of buses.</h6>
+            
+          </div>
+      </div>
+  </div>
+
+  <!-- end of features scetion -->
+
+
+  <!-- Affliated Companies -->
+ <div class="container-fluid">
+  <div class="companies">
+    <h1>Join the list of companies that trust Trober</h1>
+    <div class="logos">
+      <img src="img/explore_1_hm6dwn.svg" alt="">
+      <img src="img/image_10_ur0o91.svg" alt="">
+      <img src="img/image_11_l6sq0l.svg" alt="">
+      <img src="img/image_12_xuculr.svg" alt="">
+    </div>
+  </div>
+
+ </div>
+ <!-- End of Affliated Companies -->
+
+
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3"><img src="img/logo.png" alt="" id="foot-img"></div>
+      <div class="col-lg-3">
+        <h4>Our Policies</h4>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+      </div>
+      <div class="col-lg-3">
+        <h4>Who we are</h4>
+        <p>About Us</p>
+        <p>Media</p>
+      </div>
+      <div class="col-lg-3">
+        <h4>Offerings</h4>
+        <p>Business</p>
+        <p>Schools</p>
+        <p>Events</p>
+        <p>Churches</p>
+
+      </div>
+    </div>
+    <div class="line"></div>
+    <h2>Copyright @ Trober Ltd. All Rights Reserved</h2>
+  </div>
+</footer>
+
+        <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

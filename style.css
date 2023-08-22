@@ -1,0 +1,254 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;0,800;0,900;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    padding: 0 0;
+    background-color: #f5f8fd;
+    
+}
+
+#nav-items{
+    margin: 0 5%;
+}
+
+#logo {
+    width: 10%;
+}
+
+#header {
+    padding: 5% 10% 5% 10%;
+    background-color: #173990;
+    color: white;
+    
+}
+
+#header h1 {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+
+#header-form{
+    background-color: rgb(241, 242, 243);
+    padding: 5px 30px; 
+    color: #173990;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 20px;
+    margin-left: 20%;
+    /* display: flex; */
+    
+   
+
+}
+
+#header-text {
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.form-btn {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    
+}
+
+.form-btn1 {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    
+}
+
+.info {
+    margin:5% 10%;
+    text-align: center;
+    background-image: url(img/bg.svg);
+}
+
+.info h3 {
+    margin-top: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+.book-text{
+    margin: 5% auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#offer {
+text-align: center;
+font-family: montserrat;
+font-weight: 700;
+color: #173990;
+text-decoration: underline;
+}
+
+
+.cards{
+    display: flex;
+    margin: 5% auto;
+    margin-left: 12%;  
+    
+}
+
+.cards img {
+    margin: 0;
+    padding: 0;
+    width: 104%;
+}
+
+.card-business {
+    padding: 0;
+    margin: 0;
+}
+
+.cards h5 {
+    font-family: monsterrat;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.cardzz {
+    background-color: #f5f8fd;
+}
+ 
+
+.booking {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: #f5f8fd;
+padding: 5%;
+
+}
+
+#book-img1{
+    width: 90%;
+    margin-left: 30%;
+}
+
+.book-test1{
+    margin-top: 10%;
+    margin-left: 15%;
+   
+}
+
+
+
+#book-img2{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.book-test2{
+    margin-top: 10%;
+    margin-left: 20%;
+   
+}
+
+#book-img3{
+   
+    /* margin-left: 35%; */
+    margin-top: 15%;
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+.book-test3{
+    margin-top: 10%;
+    /* margin-left: 15%; */
+   
+}
+
+.row h3 {
+    text-decoration: underline;
+}
+
+.companies {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.logos {
+    padding: 5%;
+}
+
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #f5f8fd;
+    padding: 5%;
+}
+
+#foot-img {
+    width: 50%;
+}
+
+.line {
+    height: 10px;
+    background-color: aqua;
+    width: 100%;
+}
+
+footer h2 {
+    padding-top: 3%;
+    text-align: center;
+}
+
+
+@media (max-width: 900px) {
+    #header-form {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15%;
+    }
+
+    .info img {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .booking {
+        text-align: center;
+        width: 80%;
+        margin: 10;
+        padding: 5%;
+        border-radius: 10%;
+    }
+    #book-img1 {
+        margin: 0;
+        width: 70%;
+    }
+    .book-test1 {
+        margin: 0;
+    }
+    .booking1 {
+        text-align: center;
+        width: 80%;
+        margin: 10%;
+        padding: 5%;
+        border-radius: 10%;
+        border: 2px solid rgb(44, 44, 44);
+    }
+    #book-img2 {
+        margin: 0;
+        width: 70%;
+    }
+    .book-test2 {
+        margin: 0;
+        text-align: center;
+    }
+  }
+  
+
+  
+  
+  
+  
